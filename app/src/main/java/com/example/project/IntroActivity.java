@@ -20,7 +20,7 @@ public class IntroActivity extends AppCompatActivity {
 
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
-        }, 3000); //1초 후 인트로 실행
+        }, 3000); //3초 후 인트로 실행
     }
 
     @Override
