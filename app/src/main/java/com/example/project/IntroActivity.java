@@ -9,7 +9,7 @@ public class IntroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.intro_activity); //xml , java 소스 연결
+        setContentView(R.layout.activity_intro); //xml , java 소스 연결
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
